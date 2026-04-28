@@ -99,7 +99,7 @@ const outlandishResponses = [
   '"Yes—if you double-check everything."',
   '"No—you triple-checked and still missed it."',
   '"Affirmative. The mission base approves."',
-  '"Negative. Mission base is on lunch."'
+  '"Negative. Mission base is on lunch."',
   '"Is mayonnaise an instrument?"',
   '"No, this is Patrick!"',
   '"I love you."',
@@ -123,17 +123,10 @@ const outlandishResponses = [
 ];
 
 const form = document.getElementById('question-form');
-const questionInput = document.getElementById('question');
 const answerEl = document.getElementById('answer');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-
-  const question = questionInput.value.trim();
-  if (!question) {
-    answerEl.textContent = 'Please enter a question for the Decision Maker 9,000.';
-    return;
-  }
 
   const randomIndex = Math.floor(Math.random() * outlandishResponses.length);
   answerEl.textContent = outlandishResponses[randomIndex];
