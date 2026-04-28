@@ -19,6 +19,8 @@ const outlandishResponses = [
   '"Yes—after the third “final” version is uploaded."',
   '"No—the printer has jammed your destiny."',
   '"Affirmative. The chain of command nodded silently."',
+  '"Yes- if Toby can refuse to wear a helmet when climbing a helicopter, you can do. Be all you can be."',
+  '"Surprise, you were not supposed to see this response. Something broke somewhere."',
   '"Negative. The chain of command is tangled."',
   '"Yes—if your gig line is spiritually aligned."',
   '"No—your gig line has betrayed you."',
