@@ -124,10 +124,21 @@ const outlandishResponses = [
 
 const form = document.getElementById('question-form');
 const answerEl = document.getElementById('answer');
+const sassModifierEl = document.getElementById('sass-modifier');
+
+const sassifyResponse = (response) => {
+  const cleanResponse = response.replace(/^"|"$/g, '');
+  return `"Oh, sure. ${cleanResponse} ...because clearly this wasn't obvious already. 💅"`;
+};
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
   const randomIndex = Math.floor(Math.random() * outlandishResponses.length);
-  answerEl.textContent = outlandishResponses[randomIndex];
+  const selectedResponse = outlandishResponses[randomIndex];
+  const finalResponse = sassModifierEl.checked
+    ? sassifyResponse(selectedResponse)
+    : selectedResponse;
+
+  answerEl.textContent = finalResponse;
 });

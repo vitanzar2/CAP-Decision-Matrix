@@ -41,6 +41,7 @@ h1 {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 input {
@@ -66,6 +67,20 @@ button:hover,
 button:focus-visible {
   transform: translateY(-1px);
   box-shadow: 0 6px 14px rgb(255 61 144 / 35%);
+}
+
+.sass-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.sass-toggle input {
+  width: 1rem;
+  height: 1rem;
+  accent-color: #ff3d90;
 }
 
 .answer-card {
