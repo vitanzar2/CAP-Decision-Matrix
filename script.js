@@ -8,6 +8,7 @@ const outlandishResponses = [
   '"Absolutely—your blues are perfectly pressed in spirit."',
   '"No. The Safety Officer felt a disturbance."',
   '"Outcome unclear. Request guidance from the nearest Lt Col."',
+  '"We got a CAP Magic 8 Ball before GTA VI"',
   '"Yes—if you can recite CAPR 39-1 from memory."',
   '"No—the uniform inspector is watching."',
   '"Affirmative. Ops already volunteered you for it."',
