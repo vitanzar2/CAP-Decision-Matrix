@@ -121,7 +121,7 @@ const outlandishResponses = [
   '"I don’t need it… I don’t need it… I definitely don’t need it… I NEED IT!"',
   '"Once there was an ugly barnacle. He was so ugly that everyone died. The end."',
   '"I thought of something funnier than 24… 25!"',
-  '"East? I thought you said Weast."'
+  '"East? I thought you said Weast."',
   '"This question reminds me of a smoldering dumpster fire of hot garbage, are you okay?"',
   '"No one in CAP is without sin, not even you"',
   '"I see that you are thinking outside of the box, but unfortunetely it is the wrong box"',
