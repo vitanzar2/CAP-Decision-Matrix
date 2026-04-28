@@ -1,14 +1,14 @@
-const patrickQuotes = [
-  '"No, this is Patrick."',
-  '"Is mayonnaise an instrument?"',
-  '"The inner machinations of my mind are an enigma."',
-  '"I can\'t see my forehead."',
-  '"We should take Bikini Bottom and push it somewhere else!"',
-  '"I have an idea... why don\'t we leave now?"',
-  '"Knowledge can never replace friendship. I prefer to be an idiot!"',
-  '"Firmly grasp it!"',
-  '"Leedle leedle leedle lee!"',
-  '"I know, I\'ll make a fashion statement with this banana peel!"'
+const outlandishResponses = [
+  '"Proceed only if your left sock agrees."',
+  '"Affirmative. The moon has filed your paperwork."',
+  '"Negative. A goose has claimed airspace priority."',
+  '"Yes, but only while humming the national anthem backwards."',
+  '"The forecast predicts 87% chance of dramatic success."',
+  '"Decision delayed: consulting the council of caffeinated owls."',
+  '"Absolutely. Triple-check your shoelaces for tactical advantage."',
+  '"No. The clipboard spirits are unsettled today."',
+  '"Outcome unclear. Spin once and ask again at 14:32 Zulu."',
+  '"Approved, provided you salute the nearest houseplant."'
 ];
 
 const form = document.getElementById('question-form');
@@ -20,10 +20,10 @@ form.addEventListener('submit', (event) => {
 
   const question = questionInput.value.trim();
   if (!question) {
-    answerEl.textContent = 'Ask a question first, bestie.';
+    answerEl.textContent = 'Please enter a question for the Decision Maker 9,000.';
     return;
   }
 
-  const randomIndex = Math.floor(Math.random() * patrickQuotes.length);
-  answerEl.textContent = patrickQuotes[randomIndex];
+  const randomIndex = Math.floor(Math.random() * outlandishResponses.length);
+  answerEl.textContent = outlandishResponses[randomIndex];
 });
