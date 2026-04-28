@@ -13,6 +13,7 @@ const outlandishResponses = [
   '"No—the uniform inspector is watching."',
   '"Affirmative. Ops already volunteered you for it."',
   '"Negative. Logistics lost the answer in a supply closet."',
+   '"I hear into the distance something along the lines of "needs more snakes""',
   '"Yes—after submitting it through eServices three times."',
   '"No—your eServices session expired mid-decision."',
   '"Absolutely—provided you hydrate and change your socks."',
