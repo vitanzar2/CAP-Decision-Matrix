@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Civil Air Patrol Decision Maker 9,000</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Civil Air Patrol Decision Maker 9,000</h1>
+      <p class="subtitle">Ask your question and receive an absurdly confident answer.</p>
+
+      <form id="question-form" class="question-form">
+        <label for="question" class="sr-only">Ask your question</label>
+        <input
+          id="question"
+          name="question"
+          type="text"
+          placeholder="Should I bring extra coffee to the briefing?"
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Consult the 9,000</button>
+      </form>
+
+      <section class="answer-card" aria-live="polite">
+        <h2>Decision Output</h2>
+        <p id="answer">"Proceed only if your left sock agrees."</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
